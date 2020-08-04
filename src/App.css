@@ -120,6 +120,17 @@ input[type="text"] {
   padding-bottom: 10px;
 }
 
+.page-link {
+  color: #fff;
+  background-color: #066037;
+  border: 2px solid #dee2e6;
+}
+
+.page-link:hover {
+  color: #fff;
+  background-color: #15371e;
+}
+
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
